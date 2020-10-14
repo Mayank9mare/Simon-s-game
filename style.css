@@ -1,0 +1,57 @@
+
+body{
+    text-align: center;
+    background-color: indigo;
+}
+h1{
+    font-size: 3rem;
+    margin: 3%;
+}
+.container{
+    margin: auto;
+    width: 50%;
+}
+.buttons{
+    display: inline-block;
+    border: 5px solid black;
+
+    
+
+    width: 200px;
+    height: 200px;
+    border-radius: 30%;
+    
+
+}
+.g{
+    background-color: green;
+    
+    
+}
+.r{
+    background-color: red;
+    margin-left: 1.5rem;
+    margin-top: 4rem;
+    
+    
+}
+.b{
+    background-color: royalblue;
+    
+
+    
+}
+.y{
+    background-color: yellow;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    
+    
+}
+.gameover{
+    background-color: brown;
+}
+.pressed{
+    background-color: grey;
+
+}

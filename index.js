@@ -71,7 +71,7 @@ function nextSequence(){
     var t=Math.floor(lol);
     console.log(colors[t]);
     seq.push(colors[t]);
-    $("#"+colors[t]).fadeIn(100).fadeOut(100).fadeIn(100);
+    setTimeout(function(){$("#"+colors[t]).fadeIn(100).fadeOut(100).fadeIn(100)},700);
     $("h1").text("Level "+level.toString());
 
 }

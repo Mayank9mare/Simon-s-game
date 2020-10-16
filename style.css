@@ -1,11 +1,13 @@
 
 body{
     text-align: center;
-    background-color: indigo;
+    background-color: navy
 }
 h1{
     font-size: 3rem;
     margin: 3%;
+    font-family: 'Press Start 2P', cursive; 
+    color: gray;
 }
 .container{
     margin: auto;
